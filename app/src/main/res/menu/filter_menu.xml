@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_all"
+        android:title="Show All"
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/filter_wifi"
+        android:title="Wi-Fi Available"
+        android:checkable="true"
+        android:checked="false" />
+
+    <item
+        android:id="@+id/filter_food"
+        android:title="Offers Food"
+        android:checkable="true"
+        android:checked="false" />
+
+    <item
+        android:id="@+id/filter_details"
+        android:title="Casual Visit"
+        android:checkable="true"
+        android:checked="false" />
+
+
+</menu>

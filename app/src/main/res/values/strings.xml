@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">mobdeve.s19.mco.gr4</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="open_hours">Open Hours</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="cafe_finder">Cafe Finder</string>
+    <string name="left_logo">Left Logo</string>
+    <string name="right_logo">Right Logo</string>
+    <string name="search_cafes">Search Cafes</string>
+    <string name="filter_options">Filter Options</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="Notifications">Notifications</string>
+    <string name="view_profile">View Profile</string>
+    <string name="cafe_image_description">Image Description</string>
+
+    <string-array name="metro_manila_cities">
+        <item>Makati</item>
+        <item>Mandaluyong</item>
+        <item>Manila</item>
+        <item>Marikina</item>
+        <item>Pasay</item>
+        <item>Pasig</item>
+        <item>Parañaque</item>
+        <item>San Juan</item>
+        <item>Taguig/BGC</item>
+        <item>Quezon City</item>
+        <item>Las Piñas</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/cafeImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_only"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/cafeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafe Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cafeAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafe Location"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cafeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafe Description"
+            android:textSize="12sp"
+            android:textColor="#777777" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/heartButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_heart_outline"
+        android:contentDescription="Favorite"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

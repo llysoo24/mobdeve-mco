@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/coffee_brown">
+
+    <ImageView
+        android:id="@+id/cafeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_coffee" />
+
+    <TextView
+        android:id="@+id/cafeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:text="Cafe Name"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/cafeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="Cafe Location"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/cafeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Cafe Description"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/cafeRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Rating: 4.5"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/wifiTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi Available"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/foodTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Available"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/ambianceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambiance Details"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/cafeReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reviews go here"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
